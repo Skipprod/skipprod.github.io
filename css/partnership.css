@@ -1,0 +1,291 @@
+﻿.partnership-header {
+	position: relative;
+}
+.partnership-benefits {
+	display: block;
+	width: 800px;
+	margin: 120px auto;
+}
+.partnership-feedback {
+	position: relative;
+}
+
+.partnership-header > .partnership-header--bg {
+	position: relative;
+	width: 100%;
+	min-width: 1280px;
+}
+.partnership-header > .partnership-header--content {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	min-width: 1280px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.partnership-header--content > .partnership-header--info {
+	position: absolute;
+	top: 23%;
+	margin: auto;
+}
+.partnership-header--content > .partnership-header--hatf {
+	position: absolute;
+	bottom: -20%;
+	margin-left: -0.5%;
+	width: 60%;
+	height: 71%;
+	background-image: url('../images/partnership-hatf.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.partnership-header--info > .partnership-header--title {
+	color: white;
+	text-align: center;
+	font-size: 2.55vw;
+	font-weight: bold;
+	margin-bottom: 1.5%;
+}
+.partnership-header--info > .partnership-header--text {
+	color: white;
+	width: 60%;
+	font-size: 0.9vw;
+	text-align: center;
+	line-height: 1.5;
+	margin: auto;
+}
+.partnership-header--info > .partnership-header--service {
+	display: block;
+	width: 35%;
+	padding-top: 5.1%;
+	background-image: url('../images/partnership-services.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 3.5% auto 0;
+}
+
+.partnership-benefits > .partnership-benefits--title {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 100px;
+}
+.partnership-benefits > .partnership-benefits--list {
+	overflow: hidden;
+}
+
+.partnership-benefits--list > .partnership-benefits-item {
+	display: flex;
+	float: left;
+	margin-bottom: 70px;
+}
+
+.partnership-benefits-item:last-child {
+	margin-bottom: 0px;
+}
+.partnership-benefits-item:nth-child(2n) {
+	float: right;
+	flex-direction: row-reverse;
+}
+.partnership-benefits-item:nth-child(2n) > .partnership-benefits-item--info {
+	padding-left: 0;
+	padding-right: 30px;
+	align-items: flex-end;
+}
+.partnership-benefits-item:nth-child(2n) .partnership-benefits-item--title, .partnership-benefits-item:nth-child(2n) .partnership-benefits-item--text {
+	text-align: right;
+}
+
+.partnership-benefits-item > .partnership-benefits-item--icon {
+	width: 190px;
+	min-width: 190px;
+	height: 151px;
+	background-image: url('../images/partnership-benefits.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.partnership-benefits-item > .partnership-benefits-item--info {
+	display: flex;
+	padding-left: 30px;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.partnership-benefits-item--icon._ybi_cup {
+	background-position: 0px 0px;
+}
+.partnership-benefits-item--icon._ybi_communication {
+	background-position: 0px -158px;
+}
+.partnership-benefits-item--icon._ybi_handshake {
+	background-position: 0px -315px;
+}
+.partnership-benefits-item--icon._ybi_purse {
+	background-position: 0px -472px;
+}
+.partnership-benefits-item--icon._ybi_faq {
+	background-position: 0px -630px;
+}
+.partnership-benefits-item--icon._ybi_cinch {
+	background-position: 0px -787px;
+}
+.partnership-benefits-item--icon._ybi_child {
+	background-position: 0px -945px;
+}
+
+.partnership-benefits-item--info > .partnership-benefits-item--title {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.partnership-benefits-item--info > .partnership-benefits-item--text {
+	width: 450px;
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.partnership-feedback > .partnership-feedback--bg {
+	position: relative;
+	width: 100%;
+	min-width: 1280px;
+}
+.partnership-feedback > .partnership-feedback--content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	width: 600px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+
+.partnership-feedback--content > .partnership-feedback--header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 34px;
+	margin: 15px 0 30px;
+}
+.partnership-feedback--content > .partnership-feedback--form {
+	display: flex;
+	flex-direction: column;
+	height: 430px;
+	background: white;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 35px 35px 80px -10px #00000057;
+	overflow: hidden;
+}
+
+.partnership-feedback--header > .partnership-feedback--prev, .partnership-feedback--header > .partnership-feedback--next {
+	position: relative;
+	opacity: 0.6;
+	width: 50px;
+	height: 25px;
+	transition: opacity 100ms linear, left 100ms linear, right 100ms linear;
+	cursor: pointer;
+}
+.partnership-feedback--header > .partnership-feedback--prev:hover, .partnership-feedback--header > .partnership-feedback--next:hover {
+	opacity: 1;
+}
+.partnership-feedback--header > .partnership-feedback--prev.hidden, .partnership-feedback--header > .partnership-feedback--next.hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.partnership-feedback--header > .partnership-feedback--prev {
+	right: 5px;
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22100%25%22%20width%3D%22100%25%22%20viewBox%3D%220%200%20132.5965%20240.82202%22%3E%3Cpath%20d%3D%22M%203.5205014%2C111.816%20111.8175%2C3.555%20c%204.752%2C-4.74%2012.451%2C-4.74%2017.215%2C0%204.752%2C4.74%204.752%2C12.439%200%2C17.179%20l%20-99.706999%2C99.671%2099.694999%2C99.671%20c%204.752%2C4.74%204.752%2C12.439%200%2C17.191%20-4.752%2C4.74%20-12.463%2C4.74%20-17.215%2C0%20L%203.5085014%2C129.006%20c%20-4.68%2C-4.691%20-4.68%2C-12.511%200.012%2C-17.19%20z%22%20fill%3D%22%23FFFFFF%22%20%2F%3E%3C%2Fsvg%3E%0D%0A') no-repeat center;
+}
+.partnership-feedback--header > .partnership-feedback--prev:hover {
+	right: 10px;
+}
+
+.partnership-feedback--header > .partnership-feedback--next {
+	left: 5px;
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20132.5965%20240.82202%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%3Cpath%20d%3D%22M%20129.076%2C111.816%2020.779%2C3.555%20c%20-4.752%2C-4.74%20-12.451%2C-4.74%20-17.215%2C0%20-4.752%2C4.74%20-4.752%2C12.439%200%2C17.179%20l%2099.707%2C99.671%20-99.695%2C99.671%20c%20-4.752%2C4.74%20-4.752%2C12.439%200%2C17.191%204.752%2C4.74%2012.463%2C4.74%2017.215%2C0%20L%20129.088%2C129.006%20c%204.68%2C-4.691%204.68%2C-12.511%20-0.012%2C-17.19%20z%22%20fill%3D%22%23FFFFFF%22%20%2F%3E%3C%2Fsvg%3E%0D%0A%0D%0A') no-repeat center;
+}
+.partnership-feedback--header > .partnership-feedback--next:hover {
+	left: 10px;
+}
+
+.partnership-feedback--header > .partnership-feedback--title {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.partnership-feedback--form > .partnership-feedback-form--inputs {
+	position: relative;
+	padding: 40px 40px 35px;
+	transition: opacity 100ms linear;
+}
+.partnership-feedback--form > .partnership-feedback-form--footer {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	background: #f7f7f7;
+	justify-content: space-between;
+	padding: 0px 30px;
+}
+
+.partnership-feedback-form--inputs.hidden {
+	opacity: 0;
+}
+.partnership-feedback-form--inputs > .partnership-feedback-form--input {
+	display: block;
+	width: 100%;
+	padding: 16px 22px 15px;
+	font-size: 14px;
+	border: 0px;
+	outline: none;
+	transition: box-shadow 100ms linear;
+	background: #f7f7f7;
+	box-shadow: inset 0 0 10000px 10000px #f7f7f7;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+.partnership-feedback-form--inputs > .partnership-feedback-form--textarea {
+	display: block;
+	width: 100%;
+	height: 140px;
+	resize: none;
+	padding: 18px 22px;
+	font-size: 14px;
+	line-height: 1.5;
+	background: #f7f7f7;
+	border: 0px;
+	outline: none;
+	border-radius: 3px;
+}
+
+.partnership-feedback-form--footer > .partnership-feedback-form--placeholder {
+	width: 210px;
+	color: gray;
+	line-height: 1.5;
+	margin-bottom: 2px;
+}
+.partnership-feedback-form--footer > .partnership-feedback-form--button {
+	color: white;
+	min-width: 110px;
+	padding: 10px 20px;
+	background: linear-gradient(45deg, #fe4e1f, #ff7470);
+	font-size: 14px;
+	border: 0px;
+	outline: none;
+	margin-left: 20px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.partnership-feedback-form--button:active {
+	padding: 11px 20px 9px;
+}

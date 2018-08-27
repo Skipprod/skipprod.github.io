@@ -1,0 +1,58 @@
+﻿.about-header, .about-content, .about-footer {
+	width: 600px;
+	margin: auto;
+}
+.about-header:after {
+	position: absolute;
+	content: '';
+	left: 0;
+	right: 0;
+	margin-top: 65px;
+	border-bottom: 1px solid #cecece;
+}
+
+.about-header {
+	padding: 40px 0 65px;
+}
+.about-header > .about-header-logo {
+	width: 301px;
+	height: 52px;
+	background-image: url('../images/logo-horizontally-1.png');
+	background-size: cover;
+	margin: auto;
+}
+.about-header > .about-header-text {
+	margin-top: 40px;
+	line-height: 1.7;
+	font-size: 16px;
+}
+
+.about-content {
+	padding: 65px 0;
+}
+.about-content > .about-history {
+	display: block;
+}
+.about-content > .about-chronology {
+	padding-top: 55px;
+}
+
+.about-history > .about-history-title {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.about-history > .about-history-text {
+	padding-top: 45px;
+	line-height: 1.7;
+	font-size: 16px;
+	color: black;
+}
+
+.about-history-text > a {
+	color: #bd8f0b;
+}
+.about-history-text > a:hover {
+	text-decoration: underline;
+}

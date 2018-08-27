@@ -1,0 +1,186 @@
+﻿.discord-header {
+    position: relative;
+}
+.discord-wrap {
+    width: 800px;
+    margin: auto;
+}
+ 
+.discord-header > .discord-header-bg {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    min-height: 450px;
+    min-width: 1280px;
+}
+.discord-header > .discord-header-layout {
+	position: absolute;
+	top: 53%;
+	width: 100%;
+	min-width: 1280px;
+	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	box-sizing: border-box;
+}
+
+.discord-header-layout > .discord-header-info {
+	width: 450px;
+	margin: 0 auto 30px;
+}
+.discord-header-layout > .discord-header-download {
+	display: block;
+}
+
+.discord-header-info > .discord-info-icon {
+	width: 40px;
+	height: 47px;
+	background-image: url('../images/discord-icon.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+}
+.discord-header-info > .discord-info-title {
+	display: block;
+	color: black;
+	margin: 23px 0;
+	font-weight: bold;
+	font-size: 19px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.discord-header-info > .discord-info-text {
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.discord-header-download > .discord-download-text {
+	width: 300px;
+	color: black;
+	line-height: 1.5;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	margin: auto;
+}
+.discord-header-download > .discord-download-button {
+	display: block;
+	width: 210px;
+	color: white;
+	background: linear-gradient(0, #7489d2, #7288ce);
+	border-radius: 3px;
+	box-shadow: 0px 1px 6px -3px black;
+	line-height: 43px;
+	text-align: center;
+	margin: auto;
+}
+
+.discord-wrap > .discord-join {
+	margin: 70px 0;
+}
+
+.discord-join > .discord-join-title {
+	width: 300px;
+	line-height: 1.5;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+	margin: auto;
+}
+.discord-join > .discord-join-servers {
+	display: flex;
+	height: 60px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.discord-join > .discord-join-tooltip {
+	position: relative;
+	padding: 20px 25px;
+	width: 400px;
+	margin: 50px auto 0;
+	border: 1px solid #c3c3c3;
+	line-height: 1.5;
+	font-size: 14px;
+	border-radius: 2px;
+}
+
+.discord-join-servers > .discord-join-server {
+	color: white;
+	line-height: 0;
+	font-size: 17px;
+	text-align: center;
+	margin: 0px 15px;
+}
+
+.discord-join-server:before, .discord-join-server:after {
+	display: block;
+	content: '';
+	width: 0px;
+	border: 30px solid transparent;
+}
+.discord-join-server[bg='1']:before {
+	border-bottom-color: #e0523b;
+}
+.discord-join-server[bg='1']:after {
+	border-top-color: #e0523b;
+}
+.discord-join-server[bg='2']:before {
+	border-bottom-color: #eaad39;
+}
+.discord-join-server[bg='2']:after {
+	border-top-color: #eaad39;
+}
+.discord-join-server[bg='3']:before {
+	border-bottom-color: #3cb75b;
+}
+.discord-join-server[bg='3']:after {
+	border-top-color: #3cb75b;
+}
+.discord-join-server[bg='4']:before {
+	border-bottom-color: #464bfa;
+}
+.discord-join-server[bg='4']:after {
+	border-top-color: #464bfa;
+}
+.discord-join-server[bg='5']:before {
+	border-bottom-color: #6e4699;
+}
+.discord-join-server[bg='5']:after {
+	border-top-color: #6e4699;
+}
+.discord-join-server[bg='6']:before {
+	border-bottom-color: #3bc8d6;
+}
+.discord-join-server[bg='6']:after {
+	border-top-color: #3bc8d6;
+}
+.discord-join-server[bg='7']:before {
+	border-bottom-color: #e03b80;
+}
+.discord-join-server[bg='7']:after {
+	border-top-color: #e03b80;
+}
+
+.discord-join-tooltip:before, .discord-join-tooltip:after {
+    position: absolute;
+    pointer-events: none;
+    border: solid transparent;
+    content: '';
+    left: 50%;
+    height: 0;
+    width: 0;
+    border-width: 15px;
+	margin: 0 -15px;
+}
+.discord-join-tooltip:before {
+	top: -31px;
+	border-bottom-color: #c3c3c3;
+}
+.discord-join-tooltip:after {
+	top: -30px;
+	border-bottom-color: #ffffff;
+}

@@ -1,0 +1,65 @@
+.rules-wrap {
+	width: 1100px;
+	padding: 50px 0 20px;
+	overflow: hidden;
+	margin: auto;
+}
+.rules-wrap > .rules-side-left {
+	float: left;
+	width: 162px;
+}
+.rules-wrap > .rules-side-right {
+	float: right;
+	width: calc(100% - 262px);
+	margin-left: 100px;
+}
+
+.rules-side-left > .rules-nav-row {
+	display: block;
+	padding: 0 20px;
+	border-left: 3px solid #dadada;
+	margin-bottom: 30px;
+}
+.rules-side-left > .rules-nav-row.__active {
+	border-left: 3px solid #eebd2c;
+}
+.rules-side-left > .rules-nav-row:last-child {
+	margin-bottom: 0;
+}
+
+.rules-nav-row > .rules-nav-title {
+	font-size: 14px;
+	font-weight: bold;
+}
+.rules-nav-row > .rules-nav-subtitle {
+	color: gray;
+	padding-top: 5px;
+}
+
+.rules-side-right > .rules-header {
+	display: block;
+}
+.rules-side-right > .rules-content {
+	padding-top: 25px;
+}
+
+.rules-header > .rules-header-title {
+	line-height: 26px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.rules-content > .rules-text {
+	min-height: 50px;
+	font-size: 14px;
+	line-height: 1.6;
+}
+.rules-content > .rules-text li {
+	display: list-item;
+	padding: 10px 0;
+	border-bottom: 1px solid #e2e2e2;
+}
+.rules-content > .rules-date {
+	color: gray;
+	padding-top: 27px;
+}

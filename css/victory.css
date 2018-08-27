@@ -1,0 +1,127 @@
+﻿.victory-layout {
+	width: 815px;
+	margin: 140px auto 0;
+}
+
+.victory-layout > .victory-header {
+	margin-bottom: 100px;
+}
+.victory-layout > .victory-wrap {
+	display: block;
+}
+
+.victory-header > .victory-header-title {
+	position: relative;
+	padding: 55px 0 0;
+	width: 815px;
+	height: 185px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	box-sizing: border-box;
+}
+.victory-header > .victory-header-title:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/victory-title.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.victory-header-title > font {
+	position: relative;
+	color: white;
+}
+.victory-header > .victory-header-ipaddr {
+	width: 300px;
+	margin: 15px auto 0;
+}
+
+.victory-header-ipaddr > .victory-ipaddr-hint {
+	font-size: 16px;
+	text-align: center;
+	color: #c1c1c1;
+}
+.victory-header-ipaddr > .victory-ipaddr-info {
+	margin: 10px 0 0;
+	padding: 13px;
+	font-size: 25px;
+	letter-spacing: 1px;
+	text-align: center;
+	color: white;
+	background: #2e2e2e;
+	border: 1px solid #f04f3b;
+	border-radius: 2px;
+}
+
+.victory-wrap > .victory-section {
+	margin-bottom: 100px;
+}
+
+.victory-section > .victory-section-title {
+	position: relative;
+	padding: 12px 0 0;
+	width: 490px;
+	height: 85px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	box-sizing: border-box;
+	z-index: 1;
+}
+.victory-section > .victory-section-title > a {
+	color: white;
+}
+.victory-section > .victory-section-title:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/victory-subtitle.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+.victory-section > .victory-section-content {
+	margin-top: 15px;
+}
+
+.victory-section-content > .victory-content-video {
+	display: block;
+}
+.victory-section-content > .victory-content-text {
+	width: 500px;
+	color: white;
+	font-size: 15px;
+	line-height: 1.5;
+	margin: auto;
+}
+.victory-section-content > .victory-content-ipaddr {
+	width: 300px;
+	margin: auto;
+}
+
+.victory-content-ipaddr > .victory-ipaddr-hint {
+	font-size: 16px;
+	text-align: center;
+	color: #c1c1c1;
+}
+.victory-content-ipaddr > .victory-ipaddr-info {
+	margin: 10px 0 0;
+	padding: 13px;
+	font-size: 25px;
+	letter-spacing: 1px;
+	text-align: center;
+	color: white;
+	background: #2e2e2e;
+	border: 1px solid #f04f3b;
+	border-radius: 2px;
+}
